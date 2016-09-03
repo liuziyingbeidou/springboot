@@ -30,13 +30,7 @@
 
     <dependency>
         <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-eureka-server</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+    <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
 </dependencies>
 
@@ -50,6 +44,6 @@
         <scope>import</scope>
     </dependency>
     </dependencies>
-</dependencyManagement>  
+</dependencyManagement>
 
 </project>
